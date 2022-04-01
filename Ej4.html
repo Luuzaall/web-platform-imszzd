@@ -1,0 +1,96 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <h1>Ejercicio 4</h1>
+    <a href="/index.html">Volver</a>
+
+    <h2>Registro en PAVII</h2>
+    <form method="POST" action="https://jkorpela.fi/cgi-bin/echo.cgi">
+      <table>
+        <tbody>
+          <tr>
+            <td><label for="us">Usuario</label></td>
+            <td>
+              <input type="text" id="us" name="usuario" placeholder="Juan223" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="pass">Contraseña</label></td>
+            <td>
+              <input type="password" id="pass" name="pass" />
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="submit" id="env" name="enviar" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="button">¿A ver que hace?</td>
+            <td>
+              <input type="button" id="btn" name="button" value="Click Me!"
+              onclick="alert('Hola')" />
+            </td>
+          </tr>
+          <tr>
+            <td><label>--></label><u><label>¿Cuál es tu género?</label></u></td>
+          </tr>
+          <tr>
+            <td><label for="hom">Hombre</label>
+            <td>
+              <input type="radio" id="hom" name="radio" value="hombre"/>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="muj">Mujer</label>
+              <td>
+                <input type="radio" id="muj" name="radio" value="mujer"/>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="otro">Otro</label>
+            <td>
+              <input type="radio" id="otro" name="radio" value="otro"/>
+            </td>
+          </tr>
+          <tr>
+            <td><label>--></label><u><label>¿A dónde querés visitar?</label></u></td>
+          </tr>
+          <tr>
+            <td><label for="fran">Francia</label>
+            <td>
+              <input type="checkbox" id="fran" name="cbx" value="francia">
+            </td>
+          </tr>
+          <tr>
+            <td><label for="esp">España</label></td>
+            <td>
+              <input type="checkbox" if="esp" name="cbx" value="espania">
+            </td>
+          </tr>
+          <tr>
+            <td><label>¿Por qué?</label></td>
+            <td>
+              <textarea name="why" placeholder="Porque es lindo." rows=5 cols=50></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="com">¿Qué comida te gusta?</label>
+            <td>
+              <select name="select" size="2">
+                <option value="" selected></option>
+                <option value="pizza">Pizza</option>
+                <option value="empanadas">Empanadas</option>
+                <option value="sandwich">Sandwich</option>
+                <option value="tarta">Tarta</option>
+              </select>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
